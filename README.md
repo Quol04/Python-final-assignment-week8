@@ -18,11 +18,11 @@ By the end, they’ll have a data analysis report with visuals and narrative ins
 ---
 
 ## 🗂️ Project Segments (Step-by-Step Guide)
-1️⃣ Data Collection
+### 1️⃣ Data Collection
 
 Goal: Obtain a reliable COVID-19 dataset.
 
-✅ Data Sources:
+### ✅ Data Sources:
 
 Our World in Data COVID-19 Dataset (CSV & API)
 
@@ -30,14 +30,15 @@ Johns Hopkins University GitHub Repository
 
 👉 Recommended for beginners: Use the cleaned CSV from Our World in Data (easy to load with pandas).
 
-✅ Action:
+### ✅ Action:
 
 Download owid-covid-data.csv from the above link.
 
 Save in your working folder.
 
+---
 
-2️⃣ Data Loading & Exploration
+## 2️⃣ Data Loading & Exploration
 
 Goal: Load the dataset and explore its structure.
 
@@ -78,11 +79,13 @@ Handle missing numeric values with fillna() or interpolate().
 
 pandas
 
-4️⃣ Exploratory Data Analysis (EDA)
+---
+
+## 4️⃣ Exploratory Data Analysis (EDA)
 
 Goal: Generate descriptive statistics & explore trends.
 
-✅ Tasks:
+### ✅ Tasks:
 
 Plot total cases over time for selected countries.
 
@@ -92,7 +95,7 @@ Compare daily new cases between countries.
 
 Calculate the death rate: total_deaths / total_cases.
 
-✅ Visualizations:
+### ✅ Visualizations:
 
 Line charts (cases & deaths over time).
 
@@ -100,11 +103,13 @@ Bar charts (top countries by total cases).
 
 Heatmaps (optional for correlation analysis).
 
-✅ Tools:
+### ✅ Tools:
 
 matplotlib
 
 seaborn
+
+---
 
 5️⃣ Visualizing Vaccination Progress
 
