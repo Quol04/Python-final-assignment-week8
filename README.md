@@ -10,9 +10,13 @@ By the end, they’ll have a data analysis report with visuals and narrative ins
 ## 🚩 Project Objectives:
 
 ✅ Import and clean COVID-19 global data
+
 ✅ Analyze time trends (cases, deaths, vaccinations)
+
 ✅ Compare metrics across countries/regions
+
 ✅ Visualize trends with charts and maps
+
 ✅ Communicate findings in a Jupyter Notebook or PDF report
 
 ---
@@ -42,7 +46,7 @@ Save in your working folder.
 
 Goal: Load the dataset and explore its structure.
 
-✅ Tasks:
+### ✅ Tasks:
 
 Load data using pandas.read_csv().
 
@@ -52,20 +56,21 @@ Preview rows: df.head().
 
 Identify missing values: df.isnull().sum().
 
-✅ Tools:
+### ✅ Tools:
 
 pandas
 
-📌 Key columns:
+### 📌 Key columns:
 
 date, location, total_cases, total_deaths, new_cases, new_deaths, total_vaccinations, etc.
 
+---
 
-3️⃣ Data Cleaning
+## 3️⃣ Data Cleaning
 
 Goal: Prepare data for analysis.
 
-✅ Tasks:
+### ✅ Tasks:
 
 Filter countries of interest (e.g., Kenya, USA, India).
 
@@ -75,7 +80,7 @@ Convert date column to datetime: pd.to_datetime().
 
 Handle missing numeric values with fillna() or interpolate().
 
-✅ Tools:
+### ✅ Tools:
 
 pandas
 
@@ -111,17 +116,17 @@ seaborn
 
 ---
 
-5️⃣ Visualizing Vaccination Progress
+## 5️⃣ Visualizing Vaccination Progress
 
 Goal: Analyze vaccination rollouts.
 
-✅ Tasks:
+### ✅ Tasks:
 
 Plot cumulative vaccinations over time for selected countries.
 
 Compare % vaccinated population.
 
-✅ Charts:
+### ✅ Charts:
 
 Line charts.
 
@@ -133,7 +138,9 @@ matplotlib
 
 seaborn
 
-6️⃣ Optional: Build a Choropleth Map
+---
+
+## 6️⃣ Optional: Build a Choropleth Map
 
 Goal: Visualize cases or vaccination rates by country on a world map.
 
@@ -149,7 +156,9 @@ Prepare a dataframe with iso_code, total_cases for the latest date.
 
 Plot a choropleth showing case density or vaccination rates.
 
-7️⃣ Insights & Reporting
+---
+
+## 7️⃣ Insights & Reporting
 
 Goal: Summarize findings.
 
@@ -161,7 +170,9 @@ Highlight anomalies or interesting patterns.
 
 Use markdown cells in Jupyter Notebook to write your narrative.
 
-✅ Deliverables:
+---
+
+## ✅ Deliverables:
 
 A well-documented Jupyter Notebook combining:
 
@@ -173,9 +184,12 @@ Narrative explanations
 
 Optional export: Notebook → PDF or a PowerPoint with screenshots.
 
-🛠️ Recommended Tools:
+## 🛠️ Recommended Tools:
 
 ✅ Jupyter Notebook (or VS Code with Jupyter extension)
+
 ✅ pandas
+
 ✅ matplotlib & seaborn
+
 ✅ Optional: plotly, geopandas
