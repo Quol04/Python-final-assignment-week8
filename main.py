@@ -84,12 +84,4 @@ plt.legend()
 plt.show()
 
 
-# 🗺️ Step 9 (Optional): Choropleth Map
-latest_df = df[df['date'] == df['date'].max()]
-fig = px.choropleth(latest_df,
-                    locations='iso_code',
-                    color='total_cases',
-                    hover_name='location',
-                    title='Global Total COVID-19 Cases (Latest Date)',
-                    color_continuous_scale='OrRd')
-fig.show()
+
