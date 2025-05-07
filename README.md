@@ -3,6 +3,8 @@
 
 In this project, learners will build a data analysis and reporting notebook (or app) that tracks global COVID-19 trends. The project will analyze cases, deaths, recoveries, and vaccinations across countries and time. Learners will clean and process real-world data, perform exploratory data analysis (EDA), generate insights, and visualize trends using Python data tools.
 
+[Jupyter Notebook Link](https://nb.anaconda.cloud/jupyterhub/user/1f0da55e-3670-46fd-ac88-5acd63b2a693/lab/tree/Week8/Untitled.ipynb?)
+
 ---
 
 By the end, they’ll have a data analysis report with visuals and narrative insights, suitable for presentation or publishing.
